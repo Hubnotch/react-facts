@@ -10,7 +10,6 @@ const toggleDarkMode = () => {
   setDarkMode(prevMode => !darkMode)
 }
 
-console.log(darkMode)
   return (
     <div className="container">
       <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
